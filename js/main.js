@@ -9,8 +9,6 @@ $(document).ready(function(){
 	(function(){
 		$('.tabs-link').on('click', function(e){
 			e.preventDefault();
-			 console.log('data')
-
 			var $this 	= $(this),
 					item 		= $this.closest('.tabs-item'),
 					list 		= $this.closest('.tabs'),
@@ -25,4 +23,4 @@ $(document).ready(function(){
 					.removeClass('active');
 		});
 	}());	
-})
+});
